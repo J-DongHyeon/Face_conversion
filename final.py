@@ -10,7 +10,7 @@ import numpy as np
 import cv2
 
 
-def mouse_event (event, x, y, flags, params) :
+def mouse_event (event, x, y, flags, params) : #마우스 움직임 
     global x_init, y_init, drawing, human, human_sub, x_0, y_0, x_1, y_1, imgs, \
         img_num, img_size_x, img_size_y
     
@@ -62,7 +62,7 @@ def mouse_event (event, x, y, flags, params) :
         x_0 = x_front; y_0 = y_front; x_1 = x_rear; y_1 = y_rear
 
 
-def img_read() :
+def img_read() : #프레임을 읽어오는 함수
     global human, human_sub, cap, video, imgs, img_num
     
     if (video) :
@@ -79,7 +79,7 @@ def img_read() :
 def onChange(pos):
     pass
     
-def trackbar () :
+def trackbar () : #프레임 관련 
     global ani_weighted, video
     ani_weighted = cv2.getTrackbarPos("a_weight %", "img") / 100
     video = cv2.getTrackbarPos('switch\nP V', "img")

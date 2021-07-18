@@ -79,7 +79,7 @@ def img_read() : #프레임을 읽어오는 함수
 def onChange(pos):
     pass
     
-def trackbar () : #트 관련 
+def trackbar () : #트랙바 관련 
     global ani_weighted, video
     ani_weighted = cv2.getTrackbarPos("a_weight %", "img") / 100
     video = cv2.getTrackbarPos('switch\nP V', "img")

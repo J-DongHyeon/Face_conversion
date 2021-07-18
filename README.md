@@ -85,3 +85,5 @@ ex) 정면이 아닌 얼굴, 안경을 쓴 얼굴, 눈썹이 안보이는 얼굴
 
 ex) 눈 깜빡임, 웃는 표정은 인식하지 못함
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJ-DongHyeon%2FOpen_CV.git&count_bg=%2379C83D&title_bg=%23555555&icon=grav.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+

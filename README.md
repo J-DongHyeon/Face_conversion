@@ -71,10 +71,29 @@
 <p align= "center">
 <img src=/docs/readme_Imgs/readme_gif1.gif width=300 height=300></p> 
 
-  * 카메라를 통해 실시간 영상에서 얼굴 인식 후 동물 탈을 씌운다.
-  * 동물 탈은 돼지, 강아지, 당나귀, 팬더 4가지가 있다.
-  * 실시간 카메라 영상 뿐만 아니라 자신이 원하는 이미지에 대해서도 씌울 수 있다.
-  * 동물 탈의 투명도를 0 ~ 100 % 로 설정 가능하다.
+> 카메라를 통해 실시간 영상에서 얼굴 인식 후 동물 탈을 씌운다.
+
+<p align= "center">
+<img src=/docs/Imgs/pig_inked.jpg width=200 height=200>
+<img src=/docs/Imgs/dog_inked.jpg width=200 height=200>
+<img src=/docs/Imgs/dng_inked.jpg width=200 height=200>
+<img src=/docs/Imgs/pnd_inked.jpg width=200 height=200>
+</p> 
+
+> 동물 탈은 돼지, 강아지, 당나귀, 팬더 4가지가 있다.
+
+<p align= "center">
+<img src=/docs/readme_Imgs/readme_img4.img width=300 height=300></p> 
+
+> 실시간 카메라 영상 뿐만 아니라 자신이 원하는 이미지에 대해서도 씌울 수 있다.
+
+<p align= "center">
+<img src=/docs/readme_Imgs/readme_img5.img width=300 height=300></p> 
+
+> 동물 탈의 투명도를 0 ~ 100 % 로 설정 가능하다.
+
+
+
   * 카메라 영상 중 원하는 프레임을 저장할 수 있다.
   * 원하는 이미지에 대해서 여러 가지 편집 후 저장할 수 있다.
   * 편집 후 저장되는 이미지는 `docs/Imgs` 경로에 저장된다.

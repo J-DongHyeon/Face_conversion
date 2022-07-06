@@ -23,10 +23,43 @@
 <p align= "center">
 <img src=/docs/readme_Imgs/readme_img3.PNG width=500 height=200></p> 
 
-> &nbsp;OpenCV에서 제공하는 Haar-cascade 학습 데이터를 이용하여 얼굴 검출을 진행하였습니다. <br> 얼굴 검출을 위한 데이터로는 `haarcascade_frontalface_alt.xml` 을 이용하였습니다. 이는 정면 얼굴 데이터 입니다.
+* OpenCV에서 제공하는 Haar-cascade 학습 데이터를 이용하여 얼굴 검출을 진행하였다.
+* 얼굴 검출을 위한 데이터로는 `haarcascade_frontalface_alt.xml` 을 이용하였다. 이는 정면 얼굴 데이터이다.
 <br><br>
 
 ------------------------------------------
+
+# 3. 동작 과정
+
+<p align= "center">
+<img width="300" height="300" alt="1" src="https://user-images.githubusercontent.com/86474141/126073528-84213bd9-f621-4e25-959f-0c0916b2b629.PNG"></p>
+
+>OpenCV의 얼굴 인식 모델로 이미지에서 얼굴 인식 후 사각형의 좌표를 구한다.
+</br></br>
+
+<p align= "center">
+<img width="300" height="300" alt="2" src="https://user-images.githubusercontent.com/86474141/126073537-f6cbcb4f-e5ae-47af-be81-1c997d521efe.PNG">  &nbsp;&nbsp;&nbsp;&nbsp;
+<img width="300" height="300" alt="3" src="https://user-images.githubusercontent.com/86474141/126073551-7cc9d74d-d69f-4a15-80b6-7f8c7cf272db.PNG"></p>
+
+> `docs/Imgs` 폴더에서 동물 원본 이미지를 가져오고, 동물 원본 이미지의 크기를 얼굴 인식 사각형의 크기에 맞춘다.<br>
+> 동물 원본 이미지의 마스크를 구한다.
+</br></br>
+
+<p align= "center">
+<img width="300" height="300" alt="4" src="https://user-images.githubusercontent.com/86474141/126073555-d37deee5-b91e-413b-b3b3-c2f9d93b2b73.PNG"></p>
+
+> 마스크를 동물 원본 이미지에 적용하여 동물 탈을 구한다.
+</br></br>
+
+--사진
+> 동물 마스크를 이용하여, 사람 원본 이미지에서 동물 탈이 들어갈 좌표들을 잘라낸다.
+</br></br>
+
+<p align= "center">
+<img width="300" height="300" alt="5" src="https://user-images.githubusercontent.com/86474141/126073568-8da1df79-66c1-42d1-bc4c-908a222f1d26.PNG"> </p>
+
+> 수정된 사람 이미지와 동물 탈 이미지를 OR 연산하여 사람 얼굴에 동물 탈을 씌운다.
+</br></br>
 
 ### 기능
 - 카메라를 통해 얼굴 인식 후 동물 탈을 씌웁니다.
@@ -75,30 +108,6 @@
 - F : 저장한 이미지를 보여줌
 - 마우스 드래그 : 이미지 확대
 - 우 클릭 : 이미지 축소
-
-
-### 알고리즘 간단 설명
-- CV2의 얼굴 인식 모델로 얼굴 인식 후 사각형의 좌표를 구합니다.
-
-<img width="100" alt="1" src="https://user-images.githubusercontent.com/86474141/126073528-84213bd9-f621-4e25-959f-0c0916b2b629.PNG">
-
-- 'img' 폴더에서 동물 원본 이미지를 가져옵니다.
-
-- 동물 원본 이미지를 사각형의 크기에 맞춥니다.
- 
-<img width="100" alt="2" src="https://user-images.githubusercontent.com/86474141/126073537-f6cbcb4f-e5ae-47af-be81-1c997d521efe.PNG">
-
-- 동물 원본 이미지의 마스크를 구합니다.
-
-<img width="100" alt="3" src="https://user-images.githubusercontent.com/86474141/126073551-7cc9d74d-d69f-4a15-80b6-7f8c7cf272db.PNG">
-
-- 마스크를 동물 원본 이미지에 적용하여 동물 탈을 구합니다.
-
-<img width="100" alt="4" src="https://user-images.githubusercontent.com/86474141/126073555-d37deee5-b91e-413b-b3b3-c2f9d93b2b73.PNG">
-
-- 사람 원본 이미지에 동물 탈을 씌웁니다.
-
-<img width="100" alt="5" src="https://user-images.githubusercontent.com/86474141/126073568-8da1df79-66c1-42d1-bc4c-908a222f1d26.PNG">
 
 
 ### 보완점

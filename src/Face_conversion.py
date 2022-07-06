@@ -84,7 +84,7 @@ def trackbar () : #트랙바 관련
     ani_weighted = cv2.getTrackbarPos("a_weight %", "img") / 100
     video = cv2.getTrackbarPos('switch\nP V', "img")
 
-fd = cv2.CascadeClassifier('opencv_haar/haarcascade_frontalface_alt.xml')
+fd = cv2.CascadeClassifier('../docs/opencv_haar/haarcascade_frontalface_alt.xml')
 
 drawing = False
 event_params = {"top_left_pt" : (-1, -1), "bottom_right_pt" : (-1, -1)}
@@ -102,8 +102,8 @@ cap = cv2.VideoCapture(0)
 
 video = 1
 
-sample_imgs = ['img/human1.jpg', 'img/human2.png', 'img/human3.jpg', 
-        'img/family.jpg', 'img/tv_2person.jpg']
+sample_imgs = ['../docs/Imgs/human1.jpg', '../docs/Imgs/human2.png', '../docs/Imgs/human3.jpg', 
+        '../docs/Imgs/family.jpg', '../docs/Imgs/tv_2person.jpg']
 
 sample_img_num = 0
 sample_img_num_range = 5
@@ -152,8 +152,8 @@ while (k != keys['Esc']) :
     if (video) :
         
         if (k == keys['S']) :
-            cv2.imwrite('img/saved_img' + str(cnt) + '.jpg', human)
-            saved_imgs.append('img/saved_img' + str(cnt) + '.jpg')
+            cv2.imwrite('../docs/Imgs/saved_img' + str(cnt) + '.jpg', human)
+            saved_imgs.append('../docs/Imgs/saved_img' + str(cnt) + '.jpg')
             cnt += 1
             saved_img_num_range += 1
             
@@ -182,8 +182,8 @@ while (k != keys['Esc']) :
             img_read()
             
         elif (k == keys['S']) :
-            cv2.imwrite('img/saved_img' + str(cnt) + '.jpg', human)
-            saved_imgs.append('img/saved_img' + str(cnt) + '.jpg')
+            cv2.imwrite('../docs/Imgs/saved_img' + str(cnt) + '.jpg', human)
+            saved_imgs.append('../docs/Imgs/saved_img' + str(cnt) + '.jpg')
             cnt += 1
             saved_img_num_range += 1
             
@@ -258,16 +258,16 @@ while (k != keys['Esc']) :
       
     if (ani_sel != 'original') :  
         if(ani_sel == 'pig') :
-            ani_inked = cv2.imread("img/pig_inked.jpg")
+            ani_inked = cv2.imread("../docs/Imgs/pig_inked.jpg")
             
         elif (ani_sel == 'dog') :
-            ani_inked = cv2.imread("img/dog_inked.jpg")
+            ani_inked = cv2.imread("../docs/Imgs/dog_inked.jpg")
             
         elif (ani_sel == 'donkey') :
-            ani_inked = cv2.imread("img/dng_inked.jpg")
+            ani_inked = cv2.imread("../docs/Imgs/dng_inked.jpg")
             
         elif (ani_sel == 'panda') :
-            ani_inked = cv2.imread("img/pnd_inked.jpg")
+            ani_inked = cv2.imread("../docs/Imgs/pnd_inked.jpg")
             
         frects = fd.detectMultiScale(human, scaleFactor = 1.3, minNeighbors = 4)
         

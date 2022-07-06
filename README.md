@@ -135,30 +135,43 @@
   - F : 직접 저장한 이미지를 보여줌
   - 마우스 드래그 : 이미지 확대
   - 우 클릭 : 이미지 축소
+</br></br>
 
-### 샘플 이미지에 동물 탈을 씌우는 영상
+------------------------------------------
 
-(S키를 3번 누르고 -> 이미지 모드로 변경 하여 저장한 이미지를 본 후 -> D키 누름)
+# 5. 실행 결과
 
-(실시간 영상에 대해서도 얼굴 인식 후 동물 탈을 씌울 수 있습니다.)
+<p align= "center">
+<img width="300" height="300" src="https://user-images.githubusercontent.com/86474141/126073171-489f2f33-254e-4d23-b54b-c41b67b5e181.gif"> </p>
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/86474141/126073171-489f2f33-254e-4d23-b54b-c41b67b5e181.gif)
+> &nbsp;실시간 영상에서 S키를 3번 누르고, 이미지 모드로 변경 하여 저장한 이미지를 본 후, D키 누른 것이다. 그 후 샘플 이미지에 동물 탈을 씌운 것이다.
+> <br> 실시간 영상에 대해서도 얼굴 인식 후 동물 탈을 씌울 수 있다.
+</br></br>
 
-### 샘플 이미지, 저장 이미지를 편집한 후 저장 가능
+<p align= "center">
+<img width="300" height="300" alt="2" src="https://user-images.githubusercontent.com/86474141/126073346-f6b741e6-50ab-45c9-9914-74c13ce8ef3a.PNG"> 
+&nbsp;&nbsp;
+<img width="300" height="300" alt="3" src="https://user-images.githubusercontent.com/86474141/126073350-564f8bbf-7927-448d-a90c-87aba4a036a2.PNG">
+&nbsp;&nbsp;
+<img width="300" height="200" alt="1" src="https://user-images.githubusercontent.com/86474141/126073352-4c667cfd-67cd-49bf-a200-23be8cb22372.PNG">
+</p>
 
-<img width="189" alt="2" src="https://user-images.githubusercontent.com/86474141/126073346-f6b741e6-50ab-45c9-9914-74c13ce8ef3a.PNG"> <img width="189" alt="3" src="https://user-images.githubusercontent.com/86474141/126073350-564f8bbf-7927-448d-a90c-87aba4a036a2.PNG">
+> &nbsp;원하는 이미지에 대해 편집한 후 저장 가능하다.
+</br></br>
 
-('img' 폴더에 저장됨)
+------------------------------------------
 
-<img width="365" alt="1" src="https://user-images.githubusercontent.com/86474141/126073352-4c667cfd-67cd-49bf-a200-23be8cb22372.PNG">
+# 6. 한계점
 
+> OpenCV의 'haarcascade_frontalface_alt.xml' 얼굴 인식 모델이 사람의 얼굴을 아주 잘 인식하지는 못한다.
+> > ex) 정면이 아닌 얼굴, 안경을 쓴 얼굴, 눈썹이 안보이는 얼굴 등은 잘 인식하지 못함.
+  
+> 표정이 변하더라도 동물 표정은 변하지 않고 일정하다.
+> > ex) 눈 깜빡임, 웃는 표정 등은 동물 탈이 따라하지 못함.
+</br></br>
 
+------------------------------------------
 
-### 보완점
-- open cv의 'haarcascade_frontalface_alt.xml' 얼굴 인식 모델이 사람의 얼굴을 아주 잘 인식하지는 못합니다.
+# 7. 참고 사이트
 
-ex) 정면이 아닌 얼굴, 안경을 쓴 얼굴, 눈썹이 안보이는 얼굴 등은 잘 인식하지 못함
-- 표정이 변하더라도 동물 표정은 변하지 않고 일정합니다.
-
-ex) 눈 깜빡임, 웃는 표정은 인식하지 못함
-
+#### 📙 https://signal.sedaily.com/NewsView/1Z7XH7KGX5/GX15

@@ -1,8 +1,27 @@
-# Open_CV
+<h1 align="center"> Face Conversion </h1>
 
-opencv를 이용하여 카메라 어플 기능 구현
+<h4 align="center"> 사람 얼굴 인식 후 동물 탈로 변환시키는 프로젝트 </h4>
 
-얼굴 인식 -> 동물 얼굴로 변형
+<p align= "center">
+<img src=/docs/readme_Imgs/readme_img1.PNG width=500 height=350></p> 
+</br></br>
+
+------------------------------------------
+
+# 1. 기획 계기
+
+<p align= "center">
+<img src=/docs/readme_Imgs/readme_img2.PNG width=500 height=300></p> 
+
+> &nbsp;최근 사진 보정, 영상 꾸미기 등 카메라 보정 어플의 인기가 날로 높아지고 있으며 포털 업계 카메라 시장도 경쟁이 치열하다. 쇼설 네트워크 서비스 (SNS) 에서는 스토리 기능을 이용해 짧은 영상을 올리는 것이 일상화되어 영상 수요는 더욱 늘고 있다. 관련 업계 관계자는 "최근 젊은 층들은 함께 사진을 찍을 때 스마트폰 기종이 아닌 어떤 카메라 앱을 쓰는 지에 따라 사진을 찍을 사람을 결정하는 분위기" 라고 말했다. <br> 이러한 추세에 발맞추어, `사람 얼굴을 인식하여 동물 탈로 변환시키는 재미있는 기능`을 구현하고자 본 프로젝트를 진행하였다.
+<br><br>
+
+------------------------------------------
+
+# 2. 개발환경
+
+<p align= "center">
+<img src=/docs/readme_Imgs/readme_img3.PNG width=500 height=200></p> 
 
 ### 기능
 - 카메라를 통해 얼굴 인식 후 동물 탈을 씌웁니다.

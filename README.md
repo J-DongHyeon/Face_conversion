@@ -83,12 +83,12 @@
 > 동물 탈은 돼지, 강아지, 당나귀, 팬더 4가지가 있다.
 
 <p align= "center">
-<img src=/docs/readme_Imgs/readme_img4.img width=300 height=300></p> 
+<img src=/docs/readme_Imgs/readme_img4.PNG width=300 height=300></p> 
 
 > 실시간 카메라 영상 뿐만 아니라 자신이 원하는 이미지에 대해서도 씌울 수 있다.
 
 <p align= "center">
-<img src=/docs/readme_Imgs/readme_img5.img width=300 height=300></p> 
+<img src=/docs/readme_Imgs/readme_img5.PNG width=300 height=300></p> 
 
 > 동물 탈의 투명도를 0 ~ 100 % 로 설정 가능하다.
 

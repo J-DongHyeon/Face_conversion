@@ -145,9 +145,9 @@
 </br></br>
 
 <p align= "center">
-<img width="300" height="300" alt="2" src="https://user-images.githubusercontent.com/86474141/126073346-f6b741e6-50ab-45c9-9914-74c13ce8ef3a.PNG"> 
+<img width="200" height="200" alt="2" src="https://user-images.githubusercontent.com/86474141/126073346-f6b741e6-50ab-45c9-9914-74c13ce8ef3a.PNG"> 
 &nbsp;&nbsp;
-<img width="300" height="300" alt="3" src="https://user-images.githubusercontent.com/86474141/126073350-564f8bbf-7927-448d-a90c-87aba4a036a2.PNG">
+<img width="200" height="200" alt="3" src="https://user-images.githubusercontent.com/86474141/126073350-564f8bbf-7927-448d-a90c-87aba4a036a2.PNG">
 &nbsp;&nbsp;
 <img width="300" height="200" alt="1" src="https://user-images.githubusercontent.com/86474141/126073352-4c667cfd-67cd-49bf-a200-23be8cb22372.PNG">
 </p>

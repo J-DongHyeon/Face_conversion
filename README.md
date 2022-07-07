@@ -149,7 +149,7 @@
 &nbsp;&nbsp;
 <img width="200" height="200" alt="3" src="https://user-images.githubusercontent.com/86474141/126073350-564f8bbf-7927-448d-a90c-87aba4a036a2.PNG">
 &nbsp;&nbsp;
-<img width="280" height="180" alt="1" src="https://user-images.githubusercontent.com/86474141/126073352-4c667cfd-67cd-49bf-a200-23be8cb22372.PNG">
+<img width="280" height="150" alt="1" src="https://user-images.githubusercontent.com/86474141/126073352-4c667cfd-67cd-49bf-a200-23be8cb22372.PNG">
 </p>
 
 > &nbsp;원하는 이미지에 대해 편집한 후 저장 가능하다.

@@ -43,17 +43,13 @@
 <img width="300" height="300" alt="3" src="https://user-images.githubusercontent.com/86474141/126073551-7cc9d74d-d69f-4a15-80b6-7f8c7cf272db.PNG"></p>
 
 > `docs/Imgs` 폴더에서 동물 원본 이미지를 가져오고, 동물 원본 이미지의 크기를 얼굴 인식 사각형의 크기에 맞춘다.<br>
-> 동물 원본 이미지의 마스크를 구한다.
+> 동물 원본 이미지를 흑백 모델로 변환 시키고, threshold() 함수를 이용하여 완전히 이진화 시킴으로써 마스크를 구한다.
 </br></br>
 
 <p align= "center">
 <img width="300" height="300" alt="4" src="https://user-images.githubusercontent.com/86474141/126073555-d37deee5-b91e-413b-b3b3-c2f9d93b2b73.PNG"></p>
 
 > 마스크를 동물 원본 이미지에 적용하여 동물 탈을 구한다.
-</br></br>
-
---사진
-> 동물 마스크를 이용하여, 사람 원본 이미지에서 동물 탈이 들어갈 좌표들을 잘라낸다.
 </br></br>
 
 <p align= "center">

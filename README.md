@@ -55,7 +55,7 @@
 <p align= "center">
 <img width="300" height="300" alt="5" src="https://user-images.githubusercontent.com/86474141/126073568-8da1df79-66c1-42d1-bc4c-908a222f1d26.PNG"> </p>
 
-> 수정된 사람 이미지와 동물 탈 이미지를 OR 연산하여 사람 얼굴에 동물 탈을 씌운다.
+> 사람 이미지와 동물 탈 이미지를 OR 연산하여 사람 얼굴에 동물 탈을 씌운다.
 </br></br>
 
 ------------------------------------------

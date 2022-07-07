@@ -71,29 +71,29 @@
 > </br></br>
 
 <p align= "center">
-<img src=/docs/Imgs/pig_inked.jpg width=200 height=200>
-<img src=/docs/Imgs/dog_inked.jpg width=200 height=200>
-<img src=/docs/Imgs/dng_inked.jpg width=200 height=200>
-<img src=/docs/Imgs/pnd_inked.jpg width=200 height=200>
+<img src=/docs/Imgs/pig_inked.jpg width=150 height=150>
+<img src=/docs/Imgs/dog_inked.jpg width=150 height=150>
+<img src=/docs/Imgs/dng_inked.jpg width=150 height=150>
+<img src=/docs/Imgs/pnd_inked.jpg width=150 height=150>
 </p> 
 
 > 동물 탈은 돼지, 강아지, 당나귀, 팬더 4가지가 있다.
 > </br></br>
 
 <p align= "center">
-<img src=/docs/readme_Imgs/readme_img4.PNG width=300 height=300></p> 
+<img src=/docs/readme_Imgs/readme_img4.PNG width=200 height=200></p> 
 
 > 실시간 카메라 영상 뿐만 아니라 자신이 원하는 이미지에 대해서도 씌울 수 있다.
 > </br></br>
 
 <p align= "center">
-<img src=/docs/readme_Imgs/readme_img5.PNG width=300 height=300></p> 
+<img src=/docs/readme_Imgs/readme_img5.PNG width=200 height=200></p> 
 
 > 동물 탈의 투명도를 0 ~ 100 % 로 설정 가능하다.
 > </br></br>
 
 <p align= "center">
-<img src=/docs/readme_Imgs/readme_img6.PNG width=220 height=220>  &nbsp;&nbsp;&nbsp;&nbsp; <img src=/docs/readme_Imgs/readme_img7.PNG width=220 height=220>
+<img src=/docs/readme_Imgs/readme_img6.PNG width=200 height=200>  &nbsp;&nbsp;&nbsp;&nbsp; <img src=/docs/readme_Imgs/readme_img7.PNG width=200 height=200>
 </p> 
 
 > 카메라 영상 중 원하는 프레임을 저장할 수 있고, 원하는 이미지에 대해 여러 가지 편집 후 저장할 수 있다.
